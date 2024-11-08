@@ -1,11 +1,14 @@
-# Text-generation-using-an-RNN
+# Developing a Conversational Chatbot
+
+This project implements a simple chatbot using the `transformers` library from Hugging Face. The chatbot leverages a pre-trained model to generate conversational responses based on user input.
 
 ## Overview
-This project implements a text generation model using Recurrent Neural Networks (RNNs). The model is structured to follow industry standards, employing a class-based design for better modularity and reusability.
 
-## Features
-- Text generation based on input sequences.
-- Configurable model parameters (embedding size, RNN units).
-- Trainable model with custom datasets.
+The `Chatbot` class is designed to provide a conversational agent that can interact with users in a natural language format. It uses the `facebook/blenderbot-400M-distill` model from Hugging Face's `transformers` library. The chatbot maintains a history of the conversation to generate contextually relevant responses.
+
+### Features
+- **Natural Language Processing**: Utilizes a pre-trained sequence-to-sequence language model.
+- **Conversation History**: Maintains a history of the conversation to provide context-aware responses.
+- **Interactive Chat**: Provides an interactive chat interface for user interaction.
 
  
