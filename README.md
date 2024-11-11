@@ -19,26 +19,10 @@ The `Chatbot` class is designed to provide a conversational agent that can inter
 
 ### 3. Installation
 Install the necessary libraries:
-```bash
-pip install torch transformers
-python
-Copy code
-from chatbot import Chatbot
-chatbot = Chatbot()
-chatbot.chat()
-5. Model Architecture
-The chatbot is based on a Seq2Seq architecture with self-attention mechanisms for context management.
+```pip install torch transformers  ```
 
-6. Results and Limitations
-The chatbot performs well for general queries but struggles with complex or domain-specific topics.
+### 4. Model Architecture
+The chatbot is based on a Seq2Seq architecture with self-attention mechanisms for context management. It maintains a conversation history to provide coherent responses across multiple conversation turns.
 
-7. Future Work
-Fine-tuning on domain-specific datasets
-Multilingual support
-Improved context management for long conversations
-8. Acknowledgments
-This project was developed as part of a study on conversational AI using Large Language Models. Special thanks to Facebook AI for the BlenderBot model.
-
-
-
- 
+### 5. Results and Limitations
+The chatbot performs well for general queries but may struggle with complex or domain-specific topics. The model’s responses are based on pre-existing data and do not update with new information.
