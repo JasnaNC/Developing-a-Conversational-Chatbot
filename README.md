@@ -11,19 +11,16 @@ The `Chatbot` class is designed to provide a conversational agent that can inter
 - **Conversation History**: Maintains a history of the conversation to provide context-aware responses.
 - **Interactive Chat**: Provides an interactive chat interface for user interaction.
   
-## Requirements
--Python 3.7+
--torch
--transformers
-### Installation
+
+### 2. Requirements
+- Python 3.7+
+- torch
+- transformers
+
+### 3. Installation
 Install the necessary libraries:
-
-bash
-Copy code
+```bash
 pip install torch transformers
-4. Usage
-Run the chatbot interactively:
-
 python
 Copy code
 from chatbot import Chatbot
